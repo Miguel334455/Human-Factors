@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sidebar {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: #000000;
+    font-size: 9pt;
+    width: 250px;
+    height: 100vh;
+    background-color:#77B254;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-y: auto;
+}
+
+.menu {
+    
+    list-style: none;
+    padding: 0;
+}
+
+
+.menu > li {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid #444; /* Agrega un contorno */
+    transition: background 0.3s, border-color 0.3s;
+}
+
+.menu > li:hover {
+    background-color:#5B913B;
+    border-color: #0C1713; /* Cambia el color del borde al pasar el mouse */
+    cursor: pointer;
+}
+
+.submenu li {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 8px 0;
+    border: 1px solid #555; /* Contorno para los elementos del submenú */
+    padding: 8px;
+    margin: 4px 0;
+    border-radius: 3px;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+.submenu li:hover {
+    color: #ffffff;
+    border-color: #1db954; /* Cambia el borde en hover */
+    cursor: pointer;
+    background-color: #000000;
+}
+
