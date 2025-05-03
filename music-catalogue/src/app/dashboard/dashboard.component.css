@@ -59,3 +59,29 @@
     background-color: #000000;
 }
 
+.sidebar.rojo {
+    background-color: #D94C3A;
+  }
+
+  .sidebar.rojo .menu > li:hover {
+    background-color: #B03024;
+    border-color: #330000;
+  }
+
+.sidebar.verde {
+    background-color: #77B254;
+  }
+
+  .sidebar.verde .menu > li:hover {
+    background-color: #5B913B;
+    border-color: #0C1713;
+  }
+
+.sidebar.azul {
+    background-color: #4A90E2;
+  }
+
+  .sidebar.azul .menu > li:hover {
+    background-color: #2C6EBB;
+    border-color: #002244;
+  }
